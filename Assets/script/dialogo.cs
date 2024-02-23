@@ -115,9 +115,16 @@ public class dialogo : MonoBehaviour
     public Image [] imagembotao;
     public bool menudosave;
 
+
+
+    public falas Falas;
+    public static int contFalas;
+    public bool falando;
+
     private void Start()
 
     {
+       
        
         inverter = 1;
         telapreta.color = new Color(0, 0, 0, 1);
@@ -387,7 +394,26 @@ public class dialogo : MonoBehaviour
                 if (chars[i] == ']') {  mudanca = 13;}
                 if (chars[i] == '{') {  mudanca = 18;}
                 if (chars[i] == '}') {   mudanca = 21;}
-            if (mudanca == 40)
+
+            //audio da voz
+            if (chars[i] == '#') { mudanca = 55; }
+            if (mudanca == 55)
+            {
+                i++;
+               
+               
+
+                //para a voz
+                if (chars[i] == 'p') { Falas.parar(); falando = false; }
+                //toca a voz
+                else { Falas.tocar(contFalas); contFalas++; falando = true; }
+                chars[i] = ' ';
+                mudanca = 0;
+
+            }
+
+
+                if (mudanca == 40)
             {
                 chars[i] = ' ';
                 botaodialogo.SetActive(false);
@@ -742,6 +768,11 @@ public class dialogo : MonoBehaviour
     public void quicksave() { 
         bancodedados.sarvar(0, selected);
         bancodedados.sarvar2(p[0], p[1], p[2], p1[0], p1[1], p1[2], c, 0);
+        if (falando) { bancodedados.salvarfala(0, contFalas-1); }
+        else
+        {
+            bancodedados.salvarfala(0, contFalas);
+        }
 
 
 
@@ -757,6 +788,8 @@ public class dialogo : MonoBehaviour
         p1[0] = bancodedados.carregaremocoes(0)[0];
         p1[1] = bancodedados.carregaremocoes(0)[1];
         p1[2] = bancodedados.carregaremocoes(0)[2];
+
+        contFalas = bancodedados.carregarfala(0);
 
         //cenario
         c = bancodedados.carregarcenario(0);
@@ -774,7 +807,11 @@ public class dialogo : MonoBehaviour
             bancodedados.salvardata(numero-1, "SAVE "+(numero)+": " + "\n" + "DATA: " + System.DateTime.Now.ToString("dd/MM/yyyy") + "\n" + "HORA: " + System.DateTime.Now.ToString("HH:mm:ss"));
             bancodedados.sarvar(numero, selected);
             bancodedados.sarvar2(p[0], p[1], p[2], p1[0], p1[1], p1[2], c, numero);
-
+            if (falando) { bancodedados.salvarfala(numero, contFalas - 1); }
+            else
+            {
+                bancodedados.salvarfala(numero, contFalas);
+            }
 
 
         }
@@ -790,6 +827,8 @@ public class dialogo : MonoBehaviour
             p1[0] = bancodedados.carregaremocoes(numero)[0];
             p1[1] = bancodedados.carregaremocoes(numero)[1];
             p1[2] = bancodedados.carregaremocoes(numero)[2];
+
+            contFalas = bancodedados.carregarfala(numero);
 
             //cenario
             c = bancodedados.carregarcenario(numero);

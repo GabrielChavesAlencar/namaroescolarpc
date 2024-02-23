@@ -120,7 +120,7 @@ public class menu : MonoBehaviour
 
     public void garotas() { cont = 1; }
     public void creditos() { cont = 2; }
-    public void comecar() { SceneManager.LoadScene("jogo"); }
+    public void comecar() { SceneManager.LoadScene("jogo");dialogo.contFalas = 0; }
     public void voltar() { cont = 0; }
     public void setmais() { contador--;if (contador  < 0) contador = 3; }
     public void setmenos() { contador++; if (contador >3) contador = 0; }

@@ -57,6 +57,17 @@ public static class bancodedados
     }
     public static string carregardata(int numero) 
     {
-        return PlayerPrefs.GetString("data" + numero,"save "+(numero+1)+": "); ; 
+        return PlayerPrefs.GetString("data" + numero,"save "+(numero+1)+": "); 
+    }
+
+
+
+    public static void salvarfala(int indice, int num)
+    {
+        PlayerPrefs.SetInt("fala" + indice, num);
+    }
+    public static int carregarfala(int indice)
+    {
+        return PlayerPrefs.GetInt("fala" + indice);
     }
 }

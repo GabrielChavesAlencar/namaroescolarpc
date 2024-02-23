@@ -21,24 +21,24 @@ Minha m)ae faz comidas deliciosas.
 que cheirinho bom, o que ser)A que minha m)ae esta fazendo?*t
 "Bom dia m)ae!"(0P
 "o que tem pro caf)e da manha?"
-"Bom dia Felipe!"(0M0
-"hoje vai ter torta de frango e caf)e com leite."
-"ta pronto pode vir comer."
-"Obrigado m)ae."(0P
+"Bom dia Felipe!"(0M0#0
+"hoje vai ter torta de frango e caf)e com leite."#p#0
+"ta pronto pode vir comer."#p#0
+"Obrigado m)ae."(0P#p
 ai comi muito acho que vou descansar um pouco(0@
 Minha m)ae cozinha bem demais,acho que esse e um dos motivos que meus pais n)ao se separam.*u
 Bom vou ver se tem algo de bom passando na TV.
 aaaa que saco nada de bom s)o pra variar.
-"oi irm)aoz)ao!"(0i0(1?
-"quero assistir desenho"
-Essa e minha irm)a Lily(1@
+"oi irm)aoz)ao!"(0i0(1?#0
+"quero assistir desenho"#p#0
+Essa e minha irm)a Lily(1@#p
 Como voc)Es podem ver ela )e muito fofinha
 "pode assistir,eu j)A estou de sa)ida"(1P
-"obrigado irm)aoz)ao!"(0i5
-bom acho que j)A descansei vou sair pra conhecer a faculdade.(0@
+"obrigado irm)aoz)ao!"(0i5#0
+bom acho que j)A descansei vou sair pra conhecer a faculdade.(0@#p
 "mae j)A vou indo!"(0P
-"tchau filho,se cuida."(0m0
-|
+"tchau filho,se cuida."(0m0#0
+|#p
 Quando saio reparo que na casa ao lado que a muito tempo estava vazia.(0@*r
 Uma fam)ilia estava de mudan)ca pra la.
 s)o olhei de relance, mais percebi uma garota muito bonita.*s(0L0(1@
@@ -74,15 +74,15 @@ Agora que j)A vi um pouco da faculdade e descobri minha sala, acho que vou volta
 |
 No caminho para a esta)c)ao percebo uma gritaria.*n
 Chego mais perto percebo que )e uma garota gritando com um cara.
-"han!?por que voc)E demorou tanto?"(0b4(1?*o
-"Calma, )e que eu estava ajudando uma velhinha a atravessar a rua."(1C
-"1 hora e meia pra ajudar um velhinha? Acha que sou burra, han!?"(0b0(1?
-"Hehe, )e que aconteceu umas coisas"(0b4(1C
+"han!?por que voc)E demorou tanto?"(0b4(1?*o#0
+"Calma, )e que eu estava ajudando uma velhinha a atravessar a rua."(1C#p
+"1 hora e meia pra ajudar um velhinha? Acha que sou burra, han!?"(0b0(1?#0
+"Hehe, )e que aconteceu umas coisas"(0b4(1C#p
 Passo perto percebo que a garota ÅEmuito bonita.(1@
 Fiquei observando ela e acabei escutando sem querer deles.
 Fui percebido!
-"t)A olhando o que!? Perdeu alguma coisa!"(0b4(1?
-Finjo que n)ao )e comigo e saio vazado.(0@
+"t)A olhando o que!? Perdeu alguma coisa!"(0b4(1?#0
+Finjo que n)ao )e comigo e saio vazado.(0@#p
 |
 Que garota doida!*c
 Como algu)em consegue namorar uma garota daquela?
