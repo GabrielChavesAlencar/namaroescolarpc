@@ -125,19 +125,27 @@ public class dialogo : MonoBehaviour
         menudosave = false;
         carregar = false;
         nomepersonagem.text = "";
-        valordarota = new int[3];
-        if (p==null)p = new string[3];
-        if (p1 == null) p1 = new int[3];
+        valordarota = new int[6];
+        if (p==null)p = new string[6];
+        if (p1 == null) p1 = new int[6];
         numerocenario = c;
         //luna
         if (p[0] == "l") {garotap[0].sprite = luna[p1[0]];}
         if (p[1] == "l") {garotap[1].sprite = luna[p1[1]];}
         if (p[2] == "l") {garotap[2].sprite = luna[p1[2]];}
 
+        if (p[3] == "l") { garotap[0].sprite = luna[p1[0]]; }
+        if (p[4] == "l") { garotap[1].sprite = luna[p1[1]]; }
+        if (p[5] == "l") { garotap[2].sprite = luna[p1[2]]; }
+
         //luna de lado
         if (p[0] == "L") { garotap[0].sprite = lunadelado[p1[0]]; }
         if (p[1] == "L") { garotap[1].sprite = lunadelado[p1[1]]; }
         if (p[2] == "L") { garotap[2].sprite = lunadelado[p1[2]]; }
+
+        if (p[3] == "L") { garotap[0].sprite = lunadelado[p1[0]]; }
+        if (p[4] == "L") { garotap[1].sprite = lunadelado[p1[1]]; }
+        if (p[5] == "L") { garotap[2].sprite = lunadelado[p1[2]]; }
 
 
         //ana
@@ -145,10 +153,18 @@ public class dialogo : MonoBehaviour
         if (p[1] == "a") { garotap[1].sprite = ana[p1[1]]; }
         if (p[2] == "a") { garotap[2].sprite = ana[p1[2]]; }
 
+        if (p[3] == "a") { garotap[0].sprite = ana[p1[0]]; }
+        if (p[4] == "a") { garotap[1].sprite = ana[p1[1]]; }
+        if (p[5] == "a") { garotap[2].sprite = ana[p1[2]]; }
+
         //anadelado
         if (p[0] == "A") { garotap[0].sprite = anadelado[p1[0]]; }
         if (p[1] == "A") { garotap[1].sprite = anadelado[p1[1]]; }
         if (p[2] == "A") { garotap[2].sprite = anadelado[p1[2]]; }
+
+        if (p[3] == "A") { garotap[0].sprite = anadelado[p1[0]]; }
+        if (p[4] == "A") { garotap[1].sprite = anadelado[p1[1]]; }
+        if (p[5] == "A") { garotap[2].sprite = anadelado[p1[2]]; }
 
 
         //bianca
@@ -156,22 +172,36 @@ public class dialogo : MonoBehaviour
         if (p[1] == "b") { garotap[1].sprite = bianca[p1[1]]; }
         if (p[2] == "b") { garotap[2].sprite = bianca[p1[2]]; }
 
+        if (p[3] == "b") { garotap[0].sprite = bianca[p1[0]]; }
+        if (p[4] == "b") { garotap[1].sprite = bianca[p1[1]]; }
+        if (p[5] == "b") { garotap[2].sprite = bianca[p1[2]]; }
 
         //biancadelado
         if (p[0] == "B") { garotap[0].sprite = biancadelado[p1[0]]; }
         if (p[1] == "B") { garotap[1].sprite = biancadelado[p1[1]]; }
         if (p[2] == "B") { garotap[2].sprite = biancadelado[p1[2]]; }
 
+        if (p[3] == "B") { garotap[0].sprite = biancadelado[p1[0]]; }
+        if (p[4] == "B") { garotap[1].sprite = biancadelado[p1[1]]; }
+        if (p[5] == "B") { garotap[2].sprite = biancadelado[p1[2]]; }
 
         //aisha
         if (p[0] == "s") { garotap[0].sprite = aisha[p1[0]]; }
         if (p[1] == "s") { garotap[1].sprite = aisha[p1[1]]; }
         if (p[2] == "s") { garotap[2].sprite = aisha[p1[2]]; }
 
+        if (p[3] == "s") { garotap[0].sprite = aisha[p1[0]]; }
+        if (p[4] == "s") { garotap[1].sprite = aisha[p1[1]]; }
+        if (p[5] == "s") { garotap[2].sprite = aisha[p1[2]]; }
+
         //aishadelado
         if (p[0] == "S") { garotap[0].sprite = aishadelado[p1[0]]; }
         if (p[1] == "S") { garotap[1].sprite = aishadelado[p1[1]]; }
         if (p[2] == "S") { garotap[2].sprite = aishadelado[p1[2]]; }
+
+        if (p[3] == "S") { garotap[0].sprite = aishadelado[p1[0]]; }
+        if (p[4] == "S") { garotap[1].sprite = aishadelado[p1[1]]; }
+        if (p[5] == "S") { garotap[2].sprite = aishadelado[p1[2]]; }
 
 
         //irma
@@ -179,10 +209,18 @@ public class dialogo : MonoBehaviour
         if (p[1] == "i") { garotap[1].sprite = irma[p1[1]]; }
         if (p[2] == "i") { garotap[2].sprite = irma[p1[2]]; }
 
+        if (p[3] == "i") { garotap[0].sprite = irma[p1[0]]; }
+        if (p[4] == "i") { garotap[1].sprite = irma[p1[1]]; }
+        if (p[5] == "i") { garotap[2].sprite = irma[p1[2]]; }
+
         //irmadelado
         if (p[0] == "I") { garotap[0].sprite = irmadelado[p1[0]]; }
         if (p[1] == "I") { garotap[1].sprite = irmadelado[p1[1]]; }
         if (p[2] == "I") { garotap[2].sprite = irmadelado[p1[2]]; }
+
+        if (p[3] == "I") { garotap[0].sprite = irmadelado[p1[0]]; }
+        if (p[4] == "I") { garotap[1].sprite = irmadelado[p1[1]]; }
+        if (p[5] == "I") { garotap[2].sprite = irmadelado[p1[2]]; }
 
 
         //Pedro
@@ -190,20 +228,36 @@ public class dialogo : MonoBehaviour
         if (p[1] == "q") { garotap[1].sprite = pedro[p1[1]]; }
         if (p[2] == "q") { garotap[2].sprite = pedro[p1[2]]; }
 
+        if (p[3] == "q") { garotap[0].sprite = pedro[p1[0]]; }
+        if (p[4] == "q") { garotap[1].sprite = pedro[p1[1]]; }
+        if (p[5] == "q") { garotap[2].sprite = pedro[p1[2]]; }
+
         //Pedrodelado
         if (p[0] == "Q") { garotap[0].sprite = pedrodelado[p1[0]]; }
         if (p[1] == "Q") { garotap[1].sprite = pedrodelado[p1[1]]; }
         if (p[2] == "Q") { garotap[2].sprite = pedrodelado[p1[2]]; }
+
+        if (p[3] == "Q") { garotap[0].sprite = pedrodelado[p1[0]]; }
+        if (p[4] == "Q") { garotap[1].sprite = pedrodelado[p1[1]]; }
+        if (p[5] == "Q") { garotap[2].sprite = pedrodelado[p1[2]]; }
 
         //Mae
         if (p[0] == "m") { garotap[0].sprite = mae[p1[0]]; }
         if (p[1] == "m") { garotap[1].sprite = mae[p1[1]]; }
         if (p[2] == "m") { garotap[2].sprite = mae[p1[2]]; }
 
+        if (p[3] == "m") { garotap[0].sprite = mae[p1[0]]; }
+        if (p[4] == "m") { garotap[1].sprite = mae[p1[1]]; }
+        if (p[5] == "m") { garotap[2].sprite = mae[p1[2]]; }
+
         //Maedelado
         if (p[0] == "M") { garotap[0].sprite = maedelado[p1[0]]; }
         if (p[1] == "M") { garotap[1].sprite = maedelado[p1[1]]; }
         if (p[2] == "M") { garotap[2].sprite = maedelado[p1[2]]; }
+
+        if (p[3] == "M") { garotap[0].sprite = maedelado[p1[0]]; }
+        if (p[4] == "M") { garotap[1].sprite = maedelado[p1[1]]; }
+        if (p[5] == "M") { garotap[2].sprite = maedelado[p1[2]]; }
 
 
 
@@ -222,6 +276,10 @@ public class dialogo : MonoBehaviour
         garotap[0].sprite = spritedefalt;
         garotap[1].sprite = spritedefalt;
         garotap[2].sprite = spritedefalt;
+
+        garotap[3].sprite = spritedefalt;
+        garotap[4].sprite = spritedefalt;
+        garotap[5].sprite = spritedefalt;
         mudanca = 0;
         showDialog();
         
